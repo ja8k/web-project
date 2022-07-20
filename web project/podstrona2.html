@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="pl">
+	<head>
+		<title>Cybersecurity</title>
+		<meta name="author" content="Jakub Krasnowski">
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+		
+		<link rel="stylesheet" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<div class="container fluid">
+			<header>
+				<a href="index.html">
+					<div class="row">
+						<div class="col-12">
+							<img src="pepe.jpeg" alt="logo" class="img-fluid">
+						</div>
+					</div>
+				</a>
+			</header>
+			
+			<nav class="nav nav-pills nav-justified">
+				<a class="nav-item nav-link" href="index.html">Główna</a>
+				<a class="nav-item nav-link" href="podstrona1.html">Breakout</a>
+				<a class="nav-item nav-link active" href="podstrona2.html">Ataki sieciowe</a>
+				<a class="nav-item nav-link" href="podstrona3.html">Profilaktyka</a>
+				<a class="nav-item nav-link" href="podstrona4.html">Sprawdź IP</a>
+			</nav>
+	
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+				  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+				  <div class="carousel-item active">
+					<img class="d-block w-50" src="rainbow_pepe.jpg" alt="First slide">
+				  </div>
+				  <div class="carousel-item">
+					<img class="d-block w-50" src="honklhonk.jpg" alt="Second slide">
+				  </div>
+				  <div class="carousel-item">
+					<img class="d-block w-50" src="pepe1.jpg" alt="Third slide">
+				  </div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				  <span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				  <span class="sr-only">Next</span>
+				</a>
+			</div>
+		
+
+			<main>
+				<h3>Rodzaje ataków sieciowych</h3>
+				<ul class="main">
+					<li>wirusy – programy lub fragmenty złowrogiego kodu wykonywalnego, który dołącza się, nadpisuje lub zamienia inny program w celu powielania samego siebie bez zgody użytkownika. Ze względu na różne rodzaje infekcji wirusy dzielą się na:
+					<ul class="sub">
+						<li>wirusy gnieżdżące się w sektorze rozruchowym dysku twardego (ang.&nbsp;<em lang="en">boot sector viruses</em>),</li>
+						<li>wirusy pasożytnicze (ang.&nbsp;<em lang="en">parasitic viruses</em>),</li>
+						<li>wirusy wieloczęściowe (ang.&nbsp;<em lang="en">multipartite viruses</em>),</li>
+						<li>wirusy towarzyszące (ang.&nbsp;<em lang="en">companion viruses</em>),</li>
+						<li>makrowirusy (ang.&nbsp;<em lang="en">macro viruses</em>).</li>
+					</ul></li>
+					<li>robaki (ang.&nbsp;<em lang="en">worms</em>) – szkodliwe oprogramowanie podobne do wirusów, rozprzestrzeniające się tylko poprzez sieć. W przeciwieństwie do wirusów nie potrzebują programu „żywiciela”. Często powielają się pocztą elektroniczną.</li>
+					<li>fork-bomba – program rezydentny nie powielający się przez sieć. Wynikiem jego działania jest jedna określona operacja, np. powielanie tego samego pliku aż do wyczerpania zasobów pamięci komputera.</li>
+					<li>Konie trojańskie – nie rozmnażają się jak wirus, ale ich działanie jest równie szkodliwe. Ukrywają się pod nazwą lub w części pliku, który może wydawać się pomocny, jednak po uruchomieniu wcale nie pełnią tej funkcji, której spodziewa się użytkownik. Trojany wykonują w tle operacje szkodliwe dla użytkownika, np. otwierają port komputera, który może umożliwić późniejszy atak ze strony włamywacza (cyberprzestępcy)</li>
+					<li>backdoory – przejmują kontrolę nad zainfekowanym komputerem, umożliwiając wykonywanie na nim czynności administracyjnych, łącznie z usuwaniem i zapisem danych. Podobnie jak trojan, backdoory podszywają się pod pliki i programy, z których często korzysta użytkownik. Umożliwiają intruzom sterowanie systemem operacyjnym poprzez Internet. Wykonują wtedy działania wbrew wiedzy i woli ofiary.</li>
+					<li>oprogramowanie szpiegujące (ang.&nbsp;<em lang="en">spyware</em>) – oprogramowanie zbierające dane o osobie fizycznej lub prawnej bez jej zgody, mogą to być informacje o odwiedzanych stronach, dane dostępowe itp. Występuje często jako dodatkowy i ukryty komponent większego programu, odporny na usuwanie i ingerencję użytkownika. Programy szpiegujące mogą wykonywać działania bez wiedzy użytkownika – zmieniać wpisy w rejestrze systemu operacyjnego i ustawienia użytkownika. Program szpiegujący może pobierać i uruchamiać pliki pobrane z sieci.</li>
+					<ul class="sub">
+						<li>scumware (ang.&nbsp;<em lang="en">scum</em> – piana; szumowiny, męty) – żargonowe, zbiorcze określenie oprogramowania, które wykonuje w komputerze niepożądane przez użytkownika czynności.</li>
+						<li>stealware/parasiteware – służące do okradania kont internetowych,</li>
+						<li>oprogramowanie reklamowe (ang.&nbsp;<em lang="en">adware</em>) – oprogramowanie, które w natrętny sposób wyświetla niepożądane przez odbiorcę reklamy. Warto zwrócić uwagę na to, że mianem <i>adware</i> określa się również rozpowszechniane bezpłatnie niegroźne oprogramowanie, którego producent otrzymuje wynagrodzenie za wyświetlanie reklam zlecanych przez sponsorów.</li>
+						<li>elementy typu <i>hijacker</i> – oprogramowanie wprowadzające w konfiguracji przeglądarek niepożądane zmiany, takie jak podmiana strony startowej czy doinstalowanie paska narzędzi.</li>
+					</ul>
+					<li>exploit – kod umożliwiający bezpośrednie włamanie do komputera ofiary. Do wprowadzenia zmian lub przejęcia kontroli wykorzystuje się lukę w oprogramowaniu zainstalowanym na atakowanym komputerze. Exploity mogą być użyte w atakowaniu witryn internetowych, których silniki oparte są na językach skryptowych (zmiana treści lub przejęcie kontroli administracyjnej), systemów operacyjnych (serwery i końcówki klienckie) lub aplikacji (pakiety biurowe, przeglądarki internetowe lub inne oprogramowanie).</li>
+					<li>rootkit – jedno z najgroźniejszych narzędzi hakerskich. Ogólna zasada działania opiera się na maskowaniu obecności pewnych uruchomionych programów lub procesów systemowych (z reguły służących hakerowi do administrowania zaatakowanym systemem). Rootkit zostaje wkompilowany</a> (w wypadku zainfekowanej instalacji) lub wstrzyknięty w istotne procedury systemowe. Z reguły jest trudny do wykrycia z racji tego, że nie występuje jako osobna aplikacja. Zainstalowanie rootkita jest najczęściej ostatnim krokiem po włamaniu do systemu, w którym prowadzona będzie ukryta kradzież danych lub infiltracja.</li>
+					<li>rejestratory klawiszy (ang.&nbsp;<em lang="en">keyloggers</em>) – odczytują i zapisują wszystkie naciśnięcia klawiszy użytkownika. Dzięki temu adresy, kody i inne poufne dane mogą dostać się w niepowołane ręce. Pierwsze programowe rejestratory klawiszy były widoczne w środowisku operacyjnym użytkownika. Teraz coraz częściej są procesami niewidocznymi dla administratora. Keyloggery mogą występować również w postaci sprzętowej. Warto zwrócić uwagę na to, że keylogger może być zarówno szkodliwym oprogramowaniem służącym do rozsyłania poufnych danych, jak i oprogramowaniem celowo zainstalowanym przez pracodawcę np. w celu kontrolowania aktywności pracowników.</li>
+					<li>dialery – programy łączące się z siecią przez inny numer dostępowy niż wybrany przez użytkownika, najczęściej są to numery o początku 0-700 lub numery zagraniczne. Dialery szkodzą tylko posiadaczom modemów telefonicznych, analogowych i cyfrowych ISDN, występują głównie na stronach o tematyce erotycznej.</li>
+					<li>oprogramowanie szantażujące (ang.&nbsp;<em lang="en">ransomware</em>) – blokuje dostęp do systemu komputerowego lub uniemożliwia odczyt zapisanych w nim danych (często poprzez techniki szyfrujące), a następnie żąda od ofiary okupu za przywrócenie stanu pierwotnego, chociaż nie zawsze pliki zostają przywrócone „całe”.</li>
+				</ul>
+			</main>
+			<footer>
+				
+			</footer>
+		</div>
+	</body>
+</html>
